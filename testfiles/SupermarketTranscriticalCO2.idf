@@ -2287,7 +2287,7 @@
     Bitzer03_4FTC-20K_trans, !- Name
     4FTC-20K_R744_pwrcurv_sub,  !- Refrigeration Compressor Power Curve Name
     4FTC-20K_R744_qcurv_sub, !- Refrigeration Compressor Capacity Curve Name
-    10.0,                    !- Rated Superheat {deltaC}
+    3.0,                    !- Rated Superheat {deltaC}
     ,                        !- Rated Return Gas Temperature {C}
     ,                        !- Rated Liquid Temperature {C}
     0.0,                     !- Rated Subcooling {deltaC}
@@ -2320,7 +2320,7 @@
     RefrigGasCooler,         !- Refrigeration Gas Cooler Name
     HPCompressorList,        !- High Pressure Compressor or CompressorList Name
     LPCompressorList,        !- Low Pressure Compressor or CompressorList Name
-    4000000,                 !- Receiver Pressure {Pa}
+    4500000,                 !- Receiver Pressure {Pa}
     0.4,                     !- Subcooler Effectiveness
     R744,                    !- Refrigeration System Working Fluid Type
     ,                        !- Sum UA Suction Piping for Medium Temperature Loads {W/K}
