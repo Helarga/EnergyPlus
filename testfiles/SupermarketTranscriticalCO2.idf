@@ -7402,7 +7402,7 @@
 
   Output:Variable,*,Refrigeration Transcritical System Total High Pressure Compressor Electricity Rate,timestep;
 
-  Output:Variable,*,Refrigeration Transcritical System High Pressure Compressor Heat Transfer Rate,timestep;
+  !Output:Variable,*,Refrigeration Transcritical System High Pressure Compressor Heat Transfer Rate,timestep;
 
   Output:Variable,*,Refrigeration Transcritical System Low Pressure Compressor Electricity Rate,timestep;
 
